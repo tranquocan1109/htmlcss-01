@@ -172,7 +172,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 9.6rem;
+    margin-top: 7rem;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    padding: 0 4.2rem;
+    height: 9rem;
+    border-radius: 1.2rem;
+}
+
+.clients .images a:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 /* ========== Guides ========== */
